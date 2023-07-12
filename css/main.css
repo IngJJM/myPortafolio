@@ -102,40 +102,39 @@ img.avatar {
   display: block;
   clear: both;
 }
+.container2{
+display: flex;
+flex-direction: column;
+}
 
 /* Grid Item */
 .grid-sizer,
 .grid-item {
+display: flex;
+flex-direction: column;
 
-  width: 100%;
 }
 
 .grid-item {
-  padding-bottom: 12px;
+  padding: 6px;
 }
 
 @media (min-width: 48em) {
   .grid-sizer,
   .grid-item {
-    width: 25%;
+    display: flex;
+    flex-direction: column;
+  
 
   }
-  .grid-item {
-    float: left;
-    padding: 6px;
-  }
+
 }
 
 .grid-item img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
+align-self: center;
+
 }
 
-/* Portfolio */
-.portolio-section .container {
-  padding: 0;
-}
 
 .portfolio-item {
   position: relative;
